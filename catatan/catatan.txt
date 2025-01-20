@@ -1,0 +1,7 @@
+conda env list
+conda env remove --name mlops-tfx-new
+conda create --name mlops-tfx python=3.10.16
+conda activate mlops-tfx
+ 
+uv pip install jupyter scikit-learn tensorflow tfx flask joblib 
+uv pip install setuptools==70
