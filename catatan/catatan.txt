@@ -5,3 +5,6 @@ conda activate mlops-tfx
  
 uv pip install jupyter scikit-learn tensorflow tfx flask joblib 
 uv pip install setuptools==70
+
+conda clean --all
+pip cache purge
